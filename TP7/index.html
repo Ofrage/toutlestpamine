@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="username">Nom d'utilisateur :</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Mot de passe :</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Confirmation du mot de passe :</label></td>
+                <td><input type="password" id="confirm-password" name="confirm-password"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Date de naissance :</label></td>
+                <td><input type="date" id="birthdate" name="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Genre :</label></td>
+                <td>
+                    <input type="radio" id="homme" name="gender" value="Homme">
+                    <label for="homme">Homme</label>
+                    <input type="radio" id="femme" name="gender" value="Femme">
+                    <label for="femme">Femme</label>
+                    <input type="radio" id="autre" name="gender" value="Autre">
+                    <label for="autre">Autre</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="terms">J’accepte les conditions générales :</label></td>
+                <td><input type="checkbox" id="terms" name="terms" checked></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="S’inscrire"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
