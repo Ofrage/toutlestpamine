@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0ff; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #6a4c9c; 
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff; 
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="url"], input[type="color"], textarea, select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #9b59b6; 
+    border-radius: 5px;
+    background-color: #f9f4ff; 
+    color: #4a2c77; 
+}
+
+
+textarea {
+    resize: horizontal;
+    height: 150px; 
+}
+
+input[type="submit"] {
+    background-color: #9b59b6; 
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #8e44ad; 
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #6a4c9c; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+label[for="fruit"], label[for="gender"], label[for="birthdate"], label[for="ville"], label[for="code"], label[for="adresse"], label[for="jauge"], label[for="telephone"], label[for="url"], label[for="couleur"] {
+    font-size: 14px;
+}
+
+a {
+    color: #9b59b6; 
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+    input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="url"], input[type="color"], textarea, select {
+        width: 100%;
+    }
+
+
+
+
+
+}
