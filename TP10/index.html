@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="calc.js"></script>
+</head>
+<body>
+        <div class="container">
+                <table>
+                    <tr>
+                        <td><label> Nombre 1: </label></td> 
+                        <td><input class="t" type="text" id="t1" placeholder="saisir un nombre"></td>
+                    </tr> 
+                    <tr>
+                        <td><label> Nombre 2: </label></td> 
+                        <td><input class="t" type="text" id="t2" placeholder="saisir un nombre"></td>
+                    </tr>
+                </table>
+            
+  
+                <div class="buttons">
+                    <button onclick="addition()">+</button>
+                    <button onclick="soustraction()">-</button>
+                    <button onclick="multiplication()">*</button>
+                    <button onclick="division()">/</button>
+                    <button onclick="permute()">Permute</button>
+                    <button onclick="pair()">Parité</button>
+                    <button onclick="effacer()">Effacer</button>
+                </div>
+            
+                <table>
+                    <tr>
+                        <td><input class="t" type="text" id="resultat" readonly></td>
+                        <td><input class="t" type="text" id="t4" readonly></td>
+                    </tr>
+                </table>
+            </div>
+
+  </body>
+</html>
