@@ -90,8 +90,12 @@ else if (n1 > chiffresecret) {
     
     
     }
+else {
+    alert("Bravo t'as trouvé !")
 
+}
 
 
 
 }
+
