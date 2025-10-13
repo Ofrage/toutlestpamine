@@ -69,4 +69,29 @@ else {
 }
 document.write('<a href="index.html">Retourner à l\'index</a>');
 
+
+}
+
+function devinette() {
+    var chiffresecret = Math.floor(Math.random() * 20) + 1;
+
+    var n1 = prompt("donner un nombre entre 1 et 20");
+
+if (n1 < chiffresecret) {
+alert("Votre chiffre est inférieur")
+alert("Votre chiffre :"+" " + n1 + " , " + "La réponse :" + " " + chiffresecret)
+
+
+}
+
+else if (n1 > chiffresecret) {
+    alert("Votre chiffre est supérieur")
+    alert("Votre chiffre :"+" " + n1 + " , "  + "La réponse :" + " " + chiffresecret)
+    
+    
+    }
+
+
+
+
 }
